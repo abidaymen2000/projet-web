@@ -1,0 +1,18 @@
+#search { 
+    padding: 5px;
+    border: 3px solid #8bc34a;
+    border-radius: 40px;
+    outline: none;
+    width: 30px;
+    
+    padding-left: 20px;
+    transition: width 2s;
+    -moz-transition: width 2s;
+    -webkit-transition: width 2s;
+    -o-transition: width 2s;
+    -ms-transition: width 2s;
+    }
+
+    #search:focus {
+        width: 200px;
+    }
